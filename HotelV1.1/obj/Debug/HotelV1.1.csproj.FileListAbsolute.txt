@@ -1,0 +1,16 @@
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\bin\Debug\HotelV1.1.exe.config
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\bin\Debug\HotelV1.1.exe
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\bin\Debug\HotelV1.1.pdb
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\MainWindow.g.cs
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\Overzicht.g.cs
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\App.g.cs
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1_MarkupCompile.cache
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1_MarkupCompile.lref
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\MainWindow.baml
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\Overzicht.baml
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1.g.resources
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1._1.Properties.Resources.resources
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1.csproj.GenerateResource.Cache
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1.exe
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1.pdb
+C:\Fontys\ois12\VisualStudio\Hotel\HotelV1.1\obj\Debug\HotelV1.1.csprojResolveAssemblyReference.cache
