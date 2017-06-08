@@ -21,15 +21,24 @@ namespace HotelV1._2
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Room> Rooms;
+        // PRIVATE FIELDS
+        // PUBLIC PROPERTIES
+        public List<Room> Rooms { get; private set; }
+        public List<Booking> Bookings { get; private set; }
 
+        //CONSTRUCTOR
         public MainWindow()
         {
             InitializeComponent();
             Rooms = GetRooms();
-
+            Bookings = new List<Booking>();
         }
 
+        //METHODES
+        private void DrawLogo()
+        {
+            
+        }
         private List<Room> GetRooms()
         {
             List<Room> Rooms = new List<Room>();
@@ -48,16 +57,20 @@ namespace HotelV1._2
                 Room newRoom = new Room(roomNr, size);
                 Rooms.Add(newRoom);
             }
-
             return Rooms;
         }
-
         private void btnNewReservation_Click(object sender, RoutedEventArgs e)
         {
             ReservationWindow newReservationWindow = new ReservationWindow(Rooms);
             newReservationWindow.ShowDialog();
             if (newReservationWindow.DialogResult.Value)        
             {
+                Booking newBooking = new Booking(newReservationWindow.BookingName, 
+                    newReservationWindow.StartDate, newReservationWindow.EndDate, 
+                    newReservationWindow.Guests, newReservationWindow.Room);
+                Bookings.Add(newBooking);
+                dgBookings.Items.Clear();
+                dgBookings.ItemsSource = Bookings;
                 
             }
         }

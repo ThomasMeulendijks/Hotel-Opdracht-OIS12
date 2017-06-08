@@ -55,6 +55,8 @@ namespace HotelV1._2
                             StartDate = dateStart.DisplayDate;
                             EndDate = dateEnd.DisplayDate;
                             Room = (Room)cbbRoom.SelectedItem;
+                            DialogResult = true;
+                            this.Close();
                         }
                         else
                         {

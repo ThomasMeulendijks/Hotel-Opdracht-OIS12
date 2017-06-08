@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
-    class Booking
+    public class Booking
     {
         // PRIVATE FIELDS
 
@@ -19,6 +19,14 @@ namespace Hotel
         public Room Room { get; set; }
 
         // CONSTRUCTORS
+        public Booking(string bookingName , DateTime dateTimeStart, DateTime dateTimeEnd, List<Guest> guests, Room room)
+        {
+            BookingName = bookingName;
+            DateTimeStart = dateTimeStart;
+            DateTimeEnd = dateTimeEnd;
+            Guests = guests;
+            Room = room;
+        }
 
         // METHODS
 
